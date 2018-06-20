@@ -1,0 +1,18 @@
+graduate            研究生;毕业
+silos               粮仓
+unambiguous         不含糊
+phrase              短语 
+regexp              正则
+aliase              别名
+collaborate         合作  
+amend               修改
+diverge             分歧
+demonstrate         证明
+skeleton            骨骼
+parlance            说法；用语
+integraty           正直
+bless               祝福
+snapnots            快照
+kernel              核心；内核
+
+

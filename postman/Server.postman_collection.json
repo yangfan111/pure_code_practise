@@ -1,0 +1,248 @@
+{
+	"info": {
+		"name": "Server",
+		"_postman_id": "ef3b4344-a8aa-2298-a781-99677261328b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8360/game/save",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jwt\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwOSwiYWNjb3VudCI6InRlc3QxIiwiY3JlYXRlVGltZSI6IjIwMTgtMDEtMjUgMTQ6Mzk6MzEiLCJpYXQiOjE1MTY5NDczOTQsImV4cCI6MTUxNzEyMDE5NH0.YznrVuyklvUnLQ28unrqhjWuSIlEdzJFpZOmOMJd8DZFh36OwJrTtwlrdUg-XKRCv-oDLad_bzxPlU8eEW3O_YEH-oS1Tg0GC6iviDj4_4NY4G1ZUNPV0jq1m3Qf2k64_bR6z03cIJSKxtfuEVZUmTRZ7fKxMu-ewaqBs7OJapUmDky4jjh8ZWyQaeQI5tOwKHJUirY9SkxNXdAZj2RMt3s5aodZZdRLsefode7u0c6CbustveDILatMpG5Nue34DmNXPJvaTjDhiXes1F6jlqW35FyzvFh8nhCo1ZNzBvxQTvH_An73TZGFGyHoDZykZBCGnbCSkqKhsumF1cpBDg\",\n\t\"data\":\n\t{\n\t\t\"gameInfo\": \n\t\t{\n\t\t\t\"level\": \"10000\"\n\t\t}\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/game/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"game",
+						"save"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/game/load",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jwt\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwOSwiYWNjb3VudCI6InRlc3QxIiwiY3JlYXRlVGltZSI6IjIwMTgtMDEtMjUgMTQ6Mzk6MzEiLCJpYXQiOjE1MTY5NDczOTQsImV4cCI6MTUxNzEyMDE5NH0.YznrVuyklvUnLQ28unrqhjWuSIlEdzJFpZOmOMJd8DZFh36OwJrTtwlrdUg-XKRCv-oDLad_bzxPlU8eEW3O_YEH-oS1Tg0GC6iviDj4_4NY4G1ZUNPV0jq1m3Qf2k64_bR6z03cIJSKxtfuEVZUmTRZ7fKxMu-ewaqBs7OJapUmDky4jjh8ZWyQaeQI5tOwKHJUirY9SkxNXdAZj2RMt3s5aodZZdRLsefode7u0c6CbustveDILatMpG5Nue34DmNXPJvaTjDhiXes1F6jlqW35FyzvFh8nhCo1ZNzBvxQTvH_An73TZGFGyHoDZykZBCGnbCSkqKhsumF1cpBDg\",\n\t\"data\":\n\t{\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/game/load",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"game",
+						"load"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/game/getField",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jwt\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwOSwiYWNjb3VudCI6InRlc3QxIiwiY3JlYXRlVGltZSI6IjIwMTgtMDEtMjUgMTQ6Mzk6MzEiLCJpYXQiOjE1MTY5NDczOTQsImV4cCI6MTUxNzEyMDE5NH0.YznrVuyklvUnLQ28unrqhjWuSIlEdzJFpZOmOMJd8DZFh36OwJrTtwlrdUg-XKRCv-oDLad_bzxPlU8eEW3O_YEH-oS1Tg0GC6iviDj4_4NY4G1ZUNPV0jq1m3Qf2k64_bR6z03cIJSKxtfuEVZUmTRZ7fKxMu-ewaqBs7OJapUmDky4jjh8ZWyQaeQI5tOwKHJUirY9SkxNXdAZj2RMt3s5aodZZdRLsefode7u0c6CbustveDILatMpG5Nue34DmNXPJvaTjDhiXes1F6jlqW35FyzvFh8nhCo1ZNzBvxQTvH_An73TZGFGyHoDZykZBCGnbCSkqKhsumF1cpBDg\",\n\t\"data\":\n\t{\n\t\t\"fieldName\": \"level\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/game/getField",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"game",
+						"getField"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/game/setField",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jwt\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwOSwiYWNjb3VudCI6InRlc3QxIiwiY3JlYXRlVGltZSI6IjIwMTgtMDEtMjUgMTQ6Mzk6MzEiLCJpYXQiOjE1MTY5NDczOTQsImV4cCI6MTUxNzEyMDE5NH0.YznrVuyklvUnLQ28unrqhjWuSIlEdzJFpZOmOMJd8DZFh36OwJrTtwlrdUg-XKRCv-oDLad_bzxPlU8eEW3O_YEH-oS1Tg0GC6iviDj4_4NY4G1ZUNPV0jq1m3Qf2k64_bR6z03cIJSKxtfuEVZUmTRZ7fKxMu-ewaqBs7OJapUmDky4jjh8ZWyQaeQI5tOwKHJUirY9SkxNXdAZj2RMt3s5aodZZdRLsefode7u0c6CbustveDILatMpG5Nue34DmNXPJvaTjDhiXes1F6jlqW35FyzvFh8nhCo1ZNzBvxQTvH_An73TZGFGyHoDZykZBCGnbCSkqKhsumF1cpBDg\",\n\t\"data\":\n\t{\n\t\t\"fieldName\": \"level\",\n\t\t\"fieldValue\": \"1000\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/game/setField",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"game",
+						"setField"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/account/auth",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"jwt\": \"\",\n\t\"data\":\n\t{\n\t\t\"account\":\"shangxf1\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/account/auth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"account",
+						"auth"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/account/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"jwt\": \"\",\n\t\"data\":\n\t{\n        \"account\": \"test1\",\n        \"token\": \"b444ac06613fc8d63795be9ad0beaf55011936ac\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/account/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"account",
+						"login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8360/account/refreshToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "zh"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"jwt\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMDAwOSwiYWNjb3VudCI6InRlc3QxIiwiY3JlYXRlVGltZSI6IjIwMTgtMDEtMjUgMTQ6Mzk6MzEiLCJpYXQiOjE1MTY5NDczOTQsImV4cCI6MTUxNzEyMDE5NH0.YznrVuyklvUnLQ28unrqhjWuSIlEdzJFpZOmOMJd8DZFh36OwJrTtwlrdUg-XKRCv-oDLad_bzxPlU8eEW3O_YEH-oS1Tg0GC6iviDj4_4NY4G1ZUNPV0jq1m3Qf2k64_bR6z03cIJSKxtfuEVZUmTRZ7fKxMu-ewaqBs7OJapUmDky4jjh8ZWyQaeQI5tOwKHJUirY9SkxNXdAZj2RMt3s5aodZZdRLsefode7u0c6CbustveDILatMpG5Nue34DmNXPJvaTjDhiXes1F6jlqW35FyzvFh8nhCo1ZNzBvxQTvH_An73TZGFGyHoDZykZBCGnbCSkqKhsumF1cpBDg\",\n\t\"data\":\n\t{\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8360/account/refreshToken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8360",
+					"path": [
+						"account",
+						"refreshToken"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
