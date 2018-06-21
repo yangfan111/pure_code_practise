@@ -9,8 +9,5 @@
 //     console.log("name:%s",name)
 //     console.info("object:%s",fileObj[name])
 // }
-let para 
-for(let i of para)
-{
-    console.log("111")
-}
+let myDate = new Date();
+console.log(myDate.toLocaleDateString()); //获取当前日期

@@ -25,6 +25,7 @@ var data = ''
 
 /*************************************************path*************************************************/
 /**********************************************************************************************************/
+
  //format
 let for_origin = {dir:'../ignored/git',base:'foot.txt'}
 let for_str = path.format(for_origin)
@@ -36,7 +37,7 @@ let nor_str = path.normalize(nor_origin)
 
 //join
 
-let join_str = path.join('dd/a','b','c')
+let join_str = path.join('dd/a','b','../c')
 
 // dirname
 
@@ -51,7 +52,7 @@ let abo_rst = path.isAbsolute(abo_origin)
 //parse
 
 let par_origin =  'sdfasgsfsgsfsdf;;;;'//.././home/user/dir/file'
-let par_rst = path.parse(par_origin)
+// let par_rst = path.parse(par_origin)
 
 
 //relatviecc
@@ -64,7 +65,7 @@ let relt_str = path.relative(r1_origin, r2_origin);
 
 //resoleve
 let rs1_origin = '/begin/aaf/data'
-let rs2_origin =  './data/a/c/b/bbbb'// 'data/orandea/impl/bbb'
+let rs2_origin =  '/data/a/c/b/bbbb'// 'data/orandea/impl/bbb'
 let rels_str = path.resolve(rs1_origin,  rs2_origin);
 
 
@@ -74,7 +75,7 @@ let rels_str = path.resolve(rs1_origin,  rs2_origin);
 
 // let str = path.parse('C:\path\dir\file.txt');
 
- console.log(par_rst)
+console.log(join_str)
 // data.on('end',function(){})
 
 // let time = Date.now

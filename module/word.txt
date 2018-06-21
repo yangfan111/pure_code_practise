@@ -1,6 +1,6 @@
 graduate            研究生;毕业
-silos               粮仓
-unambiguous         不含糊
+silos               粮仓  
+unambiguous         不含糊 
 phrase              短语 
 regexp              正则
 aliase              别名
@@ -15,4 +15,27 @@ bless               祝福
 snapnots            快照
 kernel              核心；内核
 
+
+subscribe           订阅
+pros                优点
+extraneous          外来的
+mounted             安装的
+catastrophic        灾难的
+distinct            明显
+maintaining         维护
+hassle              困难
+reliable            可信的
+
+
+
+recursive       递归的
+subtle          精妙的
+daemon          守护进程
+telnet          远程登录
+restrict        限制
+outfit          机构
+compact         紧凑；合同
+encrypted       编码
+sophisticate    复杂的
+authentication  证明
 
