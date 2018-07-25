@@ -10,7 +10,7 @@ diverge             分歧
 demonstrate         证明
 skeleton            骨骼
 parlance            说法；用语
-integraty           正直
+intergraty           正直
 bless               祝福
 snapnots            快照
 kernel              核心；内核
@@ -33,9 +33,40 @@ subtle          精妙的
 daemon          守护进程
 telnet          远程登录
 restrict        限制
-outfit          机构
+outfit          装束；装备
 compact         紧凑；合同
 encrypted       编码
 sophisticate    复杂的
 authentication  证明
 
+
+
+omnibus           公交车
+hood            
+assist          辅助
+prune           删除
+odds            概率
+mutate          突变
+nautilus        鹦鹉螺
+forum           论坛
+paralleling     并联
+lottery         抽奖
+backend         后台
+repetition      重复
+spicy           辛辣
+comprehand      理解
+compress        压缩
+reject          反射
+registry        登记处
+catastrophic    冒险
+
+
+
+asynchronous    
+potentially     容忍
+expose
+underway
+malicious
+literals
+comma
+cascading      串联
