@@ -23,4 +23,4 @@ pallet             调色板
 pluggable           可插入的
 terminal            终端 
 lint        
-vital1               至关重要
+vital2               至关重要
