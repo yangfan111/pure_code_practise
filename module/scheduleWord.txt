@@ -23,3 +23,7 @@ pallet             调色板
 pluggable           可插入的
 terminal            终端 
 lint        
+<<<<<<< HEAD
+=======
+vital1111               至关重要
+>>>>>>> 200ddd865453706e0d6b016266710752363230b1
