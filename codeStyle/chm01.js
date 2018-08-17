@@ -54,16 +54,20 @@ const ab =
 //Object.prototype: console.log
 const has = Object.prototype.hasOwnProperty
 //console.log(has.call(null,"key"))
+Object.prototype.hasOwnProperty.call(object, key);
 
 //object操作
 const original = { a: 1, b: 2 };
-
+//bad
 var newSet = Object.assign({}, original, { c: 4 })
-
+//good
+const copy = {original, c: 3 };
+someStack.push('abracadabra');
 //使用protoType调用之
 const hasOne = Object.prototype.hasOwnProperty
 //hasOne.call(null,hasOne)
 
+const { firstName, lastName } = user;
 /*
 
 数组操作：reduce(accu,curr,index,arr)
@@ -76,7 +80,7 @@ const hasOne = Object.prototype.hasOwnProperty
          
 
 
-*/
+*/ 
 
 
 
@@ -102,7 +106,7 @@ function concactAll(...args) {
 }
 //使用default args 
 function defaultArgs(opts = {}) {
-
+    const abc =[...opts];
 }
 //log展开项、展开数组
 function spreadAll()

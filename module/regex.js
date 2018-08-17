@@ -41,3 +41,9 @@ function ruleRegex(){
     console.info(matchRet);
 }
 ruleRegex()
+
+
+
+
+
+
