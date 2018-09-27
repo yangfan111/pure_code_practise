@@ -2,7 +2,6 @@
 
 var fs = require("fs");
 const path = require('path')
-var zlib = require('zlib')
 //var rsteam = fs.createReadStream('.gitignore')
 var data = ''
 //rsteam.on('data',function(chunk){data = data+chunk 
